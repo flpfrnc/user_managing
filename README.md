@@ -27,13 +27,9 @@ $ cd user_managing
 
 # Install all dependencies
 $ npm install
-ou
-$ yarn install
 
 # Execute script "start"
 $ npm run start
-ou
-$ yarn server
 
 # The project will be running on port: 3000 by accessing http://localhost:3000
 ```
