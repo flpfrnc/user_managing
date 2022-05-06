@@ -1,0 +1,18 @@
+.Profile__TableWrapper {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0 0 1em lightgray;
+}
+
+@media only screen and (max-width: 1150px) {
+    .Profile__TableWrapper {
+        width: 95%;
+        margin: 0;
+        margin-top: 2rem;
+    }
+}

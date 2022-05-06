@@ -1,0 +1,10 @@
+.Table__Wrapper {
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0 0 1em lightgray;
+}

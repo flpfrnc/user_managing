@@ -1,0 +1,29 @@
+.Layout {
+    margin: 0;
+    padding: 0;
+}
+
+.RegisterCard__Wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.ReadableTable__Wrapper{
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.EditableTable__Wrapper {
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1150px) {
+    .EditableTable__Wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+  }

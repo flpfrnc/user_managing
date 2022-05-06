@@ -1,0 +1,23 @@
+.Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    min-width: 12rem;
+    height: fit-content;
+    min-height: 10rem;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 1em lightgray;
+    margin: 1rem;
+  }
+  
+  
+  .Card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
