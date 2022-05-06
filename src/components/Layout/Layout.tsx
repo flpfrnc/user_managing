@@ -4,7 +4,7 @@ import { FaPlus, FaUserPlus } from 'react-icons/fa';
 import FormUser from '../FormUser/FormUser';
 import FormProfile from '../FormProfile/FormProfile';
 import { ListRegisters } from '../ListRegisters/ListRegisters';
-import { Icon } from '@chakra-ui/react';
+import { Heading, Icon } from '@chakra-ui/react';
 import { ListUsers } from '../ListUsers/ListUsers';
 import { ListProfiles } from '../ListProfiles/ListProfiles';
 
@@ -25,6 +25,9 @@ export default function Layout() {
 
     return (
         <div className="Layout">
+            <Heading as='h1' size='lg' m={5} style={{ display: 'flex', justifyContent: 'center' }}>
+                CRUD Usuários
+            </Heading>
             <div className='RegisterCard__Wrapper'>
                 {cardsData &&
                     cardsData.map((card, index) => {
